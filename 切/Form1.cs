@@ -58,6 +58,7 @@ namespace 切
             height = height == -1 ? Convert.ToInt32(Math.Ceiling(open_img.Height * zoom_rate)) : height;
             picBox.Height = height;
             picBox.Width = width;
+            picBox.Image.Dispose();
             picBox.Image = im_resize(picBox_img, width, height);
         }
         void picBox_MouseWheel(object sender, MouseEventArgs e)
@@ -107,12 +108,12 @@ namespace 切
                 open_img = new Bitmap(fName);
                 picBox.Top = 0;
                 picBox.Left = 0;
+                this.picBox_img = new Bitmap(open_img);
+                this.picBox.Image = im_resize(picBox_img,picBox_img.Width,picBox_img.Height);
+                SetCursor(cursor_img, cut_size);
                 this.picBox.Width = open_img.Width;
                 this.picBox.Height = open_img.Height;
-                this.picBox_img = new Bitmap(open_img);
-                this.picBox.Image = this.picBox_img;
                 zoom_rate = 1;
-                SetCursor(cursor_img, cut_size);
                 zoomRateTextBox.Text =  "img_size:"+open_img.Width+"*"+open_img.Height+"   zoomrate:" + zoom_rate+ "  picBox:"+Width+"*"+Height;
                 opened = true;
                 fileNameTextBox.Text =  System.IO.Path.GetFileName(fName);
