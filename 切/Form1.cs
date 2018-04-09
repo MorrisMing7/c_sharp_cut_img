@@ -90,6 +90,15 @@ namespace 切
         
         private void openFileToolStripMenuItem2_Click(object sender, EventArgs e)
         {
+            if (opened)
+            {
+                Image tmp_img = Image.FromHbitmap(picBox_img.GetHbitmap());
+                string name = save_cut_img_dir+"/" + fileNameTextBox.Text+".jpg";
+                tmp_img.Save(name, System.Drawing.Imaging.ImageFormat.Jpeg);
+                tmp_img.Dispose();
+                picBox_img.Dispose();
+                open_img.Dispose();
+            }
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = last_open_dir==""?System.IO.Path.GetDirectoryName(this.GetType().Assembly.Location):last_open_dir;
             openFileDialog.Filter = "png文件|*.png;*.jpg";
