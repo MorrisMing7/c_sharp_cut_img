@@ -1,0 +1,10 @@
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\bin\Release\切.exe.config
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\bin\Release\切.exe
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\bin\Release\切.pdb
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\obj\Release\切.Form1.resources
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\obj\Release\切.Properties.Resources.resources
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\obj\Release\切.csproj.GenerateResource.cache
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\obj\Release\切.csproj.CoreCompileInputs.cache
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\obj\Release\切.exe
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\obj\Release\切.pdb
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\obj\Release\切.csprojResolveAssemblyReference.cache

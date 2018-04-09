@@ -1,0 +1,10 @@
+c:\users\morris\documents\visual studio 2013\Projects\切\切\bin\Debug\切.exe.config
+c:\users\morris\documents\visual studio 2013\Projects\切\切\bin\Debug\切.exe
+c:\users\morris\documents\visual studio 2013\Projects\切\切\bin\Debug\切.pdb
+c:\users\morris\documents\visual studio 2013\Projects\切\切\obj\Debug\切.csprojResolveAssemblyReference.cache
+c:\users\morris\documents\visual studio 2013\Projects\切\切\obj\Debug\切.Form1.resources
+c:\users\morris\documents\visual studio 2013\Projects\切\切\obj\Debug\切.Properties.Resources.resources
+c:\users\morris\documents\visual studio 2013\Projects\切\切\obj\Debug\切.csproj.GenerateResource.Cache
+c:\users\morris\documents\visual studio 2013\Projects\切\切\obj\Debug\切.exe
+c:\users\morris\documents\visual studio 2013\Projects\切\切\obj\Debug\切.pdb
+C:\Users\Morris\Documents\Visual Studio 2013\Projects\切\切\obj\Debug\切.csproj.CoreCompileInputs.cache
